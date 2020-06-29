@@ -16,3 +16,7 @@ class EmailAddressParser
     @emails
   end
 end
+
+
+# expected: ["avi@test.com"]
+#             got: "avi@test.com, avi@test.com"
